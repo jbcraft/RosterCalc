@@ -158,19 +158,29 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-/* Theme Styles & Calendar Dark Mode Enhancements */
+/* --- THEME STYLES --- */
+
+/* Light Mode Defaults */
+.theme-light {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Dark Mode Overrides */
 .theme-dark {
     background-color: #121212 !important;
     color: #e0e0e0 !important;
 }
 
-.theme-dark main {
+.theme-dark main, 
+.theme-dark .main {
     background-color: #121212 !important;
+    color: #e0e0e0 !important;
 }
 
 .theme-dark .sidebar {
     background-color: #1a1a1a !important;
-    border-right: 1px solid #333;
+    border-right: 1px solid #333 !important;
 }
 
 .theme-dark .card {
@@ -179,29 +189,54 @@ input[type=number] {
     border-color: #333 !important;
 }
 
+.theme-dark .card-header {
+    background-color: #252525 !important;
+    color: #ffffff !important;
+    border-bottom-color: #333 !important;
+}
+
 .theme-dark .table {
     color: #e0e0e0 !important;
     border-color: #333 !important;
 }
 
-.theme-dark .table-light, .theme-dark .table-striped > tbody > tr:nth-of-type(odd) > td {
+.theme-dark .table-light, 
+.theme-dark .table-striped > tbody > tr:nth-of-type(odd) > td {
     background-color: #252525 !important;
-    color: #fff !important;
-}
-
-.theme-dark .form-control, .theme-dark .form-select {
-    background-color: #2a2a2a !important;
-    color: #fff !important;
-    border-color: #444 !important;
-}
-
-/* Calendar Day Cells in Dark Mode */
-.theme-dark .calendar-day-cell.bg-white {
-    background-color: #2a2a2a !important;
     color: #e0e0e0 !important;
+    border-color: #333 !important;
+}
+
+.theme-dark .form-control, 
+.theme-dark .form-select {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
     border-color: #444 !important;
+}
+
+.theme-dark .form-control:focus, 
+.theme-dark .form-select:focus {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    border-color: #0d6efd !important;
+}
+
+.theme-dark .bg-light {
+    background-color: #252525 !important;
+    color: #e0e0e0 !important;
+}
+
+.theme-dark .text-muted {
+    color: #adb5bd !important;
+}
+
+/* Calendar Month Day Cells in Dark Mode */
+.theme-dark .calendar-day-default {
+    background-color: #262626 !important;
+    color: #e0e0e0 !important;
+    border-color: #3a3a3a !important;
 }
 
 .theme-dark .calendar-day-cell:hover {
-    filter: brightness(1.2);
+    filter: brightness(1.3);
 }
