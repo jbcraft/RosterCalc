@@ -241,7 +241,19 @@ input[type=number] {
     filter: brightness(1.3);
 }
 
-/* Sidebar Collapse Behavior */
+/* Fix the top navbar header row in dark mode */
+.theme-dark .sidebar .top-row {
+    background-color: #1a1a1a !important;
+    border-bottom-color: #333 !important;
+    color: #e0e0e0 !important;
+}
+
+.theme-light .sidebar .top-row {
+    background-color: #f7f7f7 !important;
+    border-bottom-color: #d6d5d5 !important;
+}
+
+/* Sidebar Collapse Animation & Layout Adjustments */
 .page .sidebar {
     transition: width 0.25s ease-in-out, transform 0.25s ease-in-out;
 }
@@ -257,3 +269,4 @@ input[type=number] {
         margin-left: 0 !important;
     }
 }
+
