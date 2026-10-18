@@ -24,14 +24,14 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x' # Use your targeted .NET version
+          dotnet-version: '9.0.x' # Use your targeted .NET version
 
       - name: Publish Blazor Project
-        run: dotnet publish YourProjectName.csproj -c Release -o release --nologo
+        run: dotnet publish RosterCalculator.csproj -c Release -o release --nologo
 
       # GitHub Pages subdirectories require the base href to match the repo name
       - name: Rewrite base href
-        run: sed -i 's/<base href="\/" \/>/<base href="\/YourRepoName\/" \/>/g' release/wwwroot/index.html
+        run: sed -i 's/<base href="\/" \/>/<base href="\/RosterCalc\/" \/>/g' release/wwwroot/index.html
 
       # Avoid 404s when users refresh a Blazor page directly
       - name: Copy index to 404
