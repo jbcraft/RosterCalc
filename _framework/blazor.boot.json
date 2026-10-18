@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RosterCalculator",
   "resources": {
-    "hash": "sha256-rFSkVTEXdAfW6+LWjnPdI3Gir4YBNbDpI4QVSYxaCOw=",
+    "hash": "sha256-JB7k83h7nEjEDKi3cXUop/TYma+ziO5CCrDPdpsFHTY=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.cw8lggjjsz.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.9bl24u5a52.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -17,7 +17,7 @@
       "Microsoft.Extensions.Primitives.2jafe63jbt.wasm": "Microsoft.Extensions.Primitives.wasm",
       "Microsoft.JSInterop.qn4bv3rejh.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.8eb000j8w7.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
-      "RosterCalculator.klyngku2l3.wasm": "RosterCalculator.wasm",
+      "RosterCalculator.kz53gjcdrd.wasm": "RosterCalculator.wasm",
       "System.Collections.Concurrent.mxwd291afa.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.7qohpn0ymk.wasm": "System.Collections.Immutable.wasm",
       "System.Collections.c65s5rpl5m.wasm": "System.Collections.wasm",
@@ -78,7 +78,7 @@
       "Microsoft.Extensions.Primitives.2jafe63jbt.wasm": "sha256-DnlMLnoUShENHHG/1JwJlFyv8wwJ0wNnr/fEV/sR2dI=",
       "Microsoft.JSInterop.qn4bv3rejh.wasm": "sha256-VocXMx4EuetU6AS/DCC5yLWVCaJ9UhIpEsmmBX4JP1s=",
       "Microsoft.JSInterop.WebAssembly.8eb000j8w7.wasm": "sha256-sGms9Oai1ztzgfMsqBvmeKwa5ZyGWr/AEXr6thw0lso=",
-      "RosterCalculator.klyngku2l3.wasm": "sha256-6E6BdCJAcHoSz3B3cw44f9V0XkYZk7F/BTHFMCkhy1M=",
+      "RosterCalculator.kz53gjcdrd.wasm": "sha256-8II8XtBTMErT9ow/qNq5TMeeO3wQGTbPaSIwoz0aDhU=",
       "System.Collections.Concurrent.mxwd291afa.wasm": "sha256-BoJOQgPMXhiLKpTgtcmwHVsgMMxBMR8FLfUBb3LuUCA=",
       "System.Collections.Immutable.7qohpn0ymk.wasm": "sha256-b4zsKib8GntTNTWma2lkzkSORSP3AvlrT0QGyfwI12E=",
       "System.Collections.c65s5rpl5m.wasm": "sha256-zLX7VzBwmCGs/xU4p+VppqdZontI2cFgO8KiEfX0IbE=",
