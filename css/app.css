@@ -240,3 +240,20 @@ input[type=number] {
 .theme-dark .calendar-day-cell:hover {
     filter: brightness(1.3);
 }
+
+/* Sidebar Collapse Behavior */
+.page .sidebar {
+    transition: width 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+@media (min-width: 641px) {
+    .page.sidebar-collapsed .sidebar {
+        width: 0 !important;
+        overflow: hidden;
+        border: none;
+    }
+    
+    .page.sidebar-collapsed main {
+        margin-left: 0 !important;
+    }
+}
